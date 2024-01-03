@@ -4,11 +4,9 @@ This is a collection of a few different parallel algorithms for calculating the
 [pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient).
 The function:
 
-´´´
-
+```
 void(correlate(int ny, int nx, const float* data, float* result))
-
-´´´
+```
 
 Given by the input matrix **data**, with **ny** rows and **nx** columns, where **0 <= y < ny** and **0 <= x < nx**, 
 the element at row **y** and column **x** is stored in **data[x + y \* nx]**.
