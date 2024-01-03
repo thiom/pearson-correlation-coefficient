@@ -5,7 +5,7 @@ This is a collection of a few different parallel algorithms for calculating the
 The function:
 
 ```
-void(correlate(int ny, int nx, const float* data, float* result))
+void correlate(int ny, int nx, const float* data, float* result)
 ```
 
 Given by the input matrix **data**, with **ny** rows and **nx** columns, where **0 <= y < ny** and **0 <= x < nx**, 
