@@ -2,6 +2,7 @@
 
 This is a collection of a few different parallel algorithms for calculating the 
 [pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient).
+
 The function:
 
 ```
