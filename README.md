@@ -36,7 +36,7 @@ different versions and some benchmark results with various input sizes (in pixel
 6000 x 6000: 0.55 s  
 9000 x 9000: 2.64 s  
 
-The CPU versions perform pretty decently, but the cuda implementation could be improved significantly. The benchmarks are 
+The CPU versions perform pretty decently, but the cuda implementation could be improved significantly. The benchmarks were 
 done on a machine with following specs:
 
 - Intel Xeon W-2255, 10 cores, 20 threads, 3.70 / 4.50 GHz
